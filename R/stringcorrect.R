@@ -17,7 +17,7 @@ findkeyword<-function(text_data){
     count<-0
     fin<-as.vector(NULL)
     rec_str<-as.vector(NULL)
-
+    big <- big()
     big_count<-sapply(gregexpr("\\W+", big), length)
 
 
