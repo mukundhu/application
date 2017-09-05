@@ -2,7 +2,8 @@ matching<-function(finalkey){
 
   a<-as.vector(NULL)
   b<-as.vector(NULL)
-  datafile<-read.csv("data//datafile.csv")
+  data <-datafile.csv
+  datafile<-read.csv(data)
 
   for(i in 1:length(finalkey)){
     a[i]<-pmatch(finalkey[i],datafile$keyword,0.5)
