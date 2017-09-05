@@ -2,7 +2,7 @@ matching<-function(finalkey){
 
   a<-as.vector(NULL)
   b<-as.vector(NULL)
-  datafile<-read.csv("C:\\Users\\MU00501706\\Desktop\\chatbot\\datafile.csv")
+  datafile<-read.csv("data/datafile.csv")
 
   for(i in 1:length(finalkey)){
     a[i]<-pmatch(finalkey[i],datafile$keyword,0.5)
