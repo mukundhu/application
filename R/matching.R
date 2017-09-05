@@ -22,7 +22,7 @@ matching<-function(finalkey){
     index_match<-tab[which.min(datafile$Rank[tab])]
     if(datafile$sub[index_match]==""){
 
-      print(paste0("you have selected ",datafile$service[index_match]," services ",datafile$sub.service[index_match]),max.levels=0)
+      return(paste0("you have selected ",datafile$service[index_match]," services ",datafile$sub.service[index_match]),max.levels=0))
       x<-1
       while(x==1){
         confirm<-conf()
