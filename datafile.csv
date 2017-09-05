@@ -1,0 +1,27 @@
+keyword,sub,service,sub service,Rank
+accident,"motor,pedestrian,car,fire",EMS,,25
+medical,"injury,illness,trauma,fever,heart attack",EMS,medical,21
+injury,,EMS,injury,22
+illness,,EMS,illness,19
+trauma,,EMS,trauma,18
+rail,,TRAFFIC,rail,17
+road,,TRAFFIC,road,16
+assault,,SAPS,assault,15
+burglary,,SAPS,burglary,14
+robbery,,SAPS,robbery,13
+hijack,,SAPS,hijack,12
+shoot,,SAPS,shoot,11
+fire,"car,chemical,electrical,structural,veld",FIRE,fire,23
+car,,FIRE,car,1
+chemical,,FIRE,chemical,2
+electrical,,FIRE,electrical,3
+structural,,FIRE,structural,4
+veld,,FIRE,veld,5
+drowning,,NSRI,drowning,6
+rescue,,NSRI,rescue,7
+sea,,NSRI,sea,8
+pedestrian,,TRAFFIC,pedestrain,20
+breakdown,,TRAFFIC,breakdown,9
+motor,,TRAFFIC,motor accident,24
+heart attack,,EMS,Medical,26
+fever,,EMS,medical,27
