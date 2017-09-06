@@ -1,5 +1,5 @@
 dataf <- function(){
-  datafile <- read.csv("R/datafile.csv")
+  datafile <- read.csv("datafile.csv")
   return(datafile)
 }
 dataf()
