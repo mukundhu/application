@@ -4,7 +4,7 @@ matching<-function(finalkey){
   b<-as.vector(NULL)
   library(readr)
   
-  data <-- read_csv(readr_example("datafile.csv"))
+  data <-- read_csv(readr_example("data/datafile.csv"))
 
  print("you are Selected")
   
