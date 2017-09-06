@@ -1,5 +1,5 @@
 dataf <- function(){
-  datafile <- read.csv("data/datafile.csv")
+  datafile <- read.csv(text=getURL("https://raw.githubusercontent.com/mukundhu/application/master/R/datafile.csv"),header=T)
   return(datafile)
 }
 
