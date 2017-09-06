@@ -4,6 +4,7 @@ matching<-function(finalkey){
   b<-as.vector(NULL)
   
    print("you have selected ")
+ name <- readline(prompt="Enter your name")
   
   }
 
