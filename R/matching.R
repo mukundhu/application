@@ -45,7 +45,7 @@ matching<-function(finalkey){
       print(paste0("Are you looking for services in ",datafile$keyword[index_match]),max.levels=0)
       y<-1
       while(y==1){
-        confirm<-conf()
+        
         if(tolower(confirm)=="no"){
           y<-0
           matching(finalkey)
