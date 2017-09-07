@@ -13,8 +13,7 @@ matching<-function(finalkey){
   }
 
   if(all(is.na(a))){
-    again <- againtext()
-    finalkey<-final_key(again)
+    finalkey<-final_key()
     matching(finalkey)
 
   }else{
@@ -48,4 +47,5 @@ matching<-function(finalkey){
  }
 }
 }
+  print("sucessfull")
 }
